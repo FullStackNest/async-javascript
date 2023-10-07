@@ -13,8 +13,12 @@
 <body>
     <div class="container">
         <h1>JavaScript: Async Programming -1</h1>
-        <button id="fetch-btn" class="btn btn-primary">Fetch Products</button>
-        <button id="user-btn" class="btn btn-info">Fetch Users</button>
+        <input type="number" id="apiId" placeholder="Enter id to call API" /><br />
+        <button id="fetch-btn" class="btn btn-primary my-4">Fetch Products</button>
+        <button id="user-btn" class="btn btn-info my-4">Fetch Users</button>
+        <button id="both-api" class="btn btn-info my-4">Fetch Combined</button>
+
+        <div id="loader" class="d-flex gap-5 flex-wrap"></div>
         <div id="products" class="d-flex gap-5 flex-wrap"></div>
     </div>
 
